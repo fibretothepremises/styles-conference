@@ -1,5 +1,11 @@
 /***************************************/
 
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+/***************************************/
+
 /* GRID */
 
 *,
@@ -43,11 +49,11 @@
 
 /***************************************/
 
-/* CUSTOM STYLES */
+/* TYPOGRAPHY */
 
 body {
     color: #888;
-    font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 300 16px/22px Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 strong {
@@ -57,10 +63,6 @@ strong {
 cite, em {
     font-style: italic;
 }
-
-/****************************************/
-
-/* TYPOGRAPHY */
 
 h1, h3, h4, h5, p {
     margin-bottom: 22px;
@@ -146,6 +148,7 @@ p a {
 
 .hero p {
     font-size: 24px;
+    font-weight: 100;
 }
 
 /****************************************/
@@ -174,9 +177,15 @@ p a {
 .logo {
     float: left;
     border-top: 4px solid #648880;
-    font-size: 48px;
-    line-height: 44px;
     padding: 40px 0 22px 0;
+
+    font-size: 48px;
+    font-weight: 100;
+
+    letter-spacing: .5px;
+    line-height: 44px;
+    text-transform: uppercase;
+
 }
 
 .tagline {
